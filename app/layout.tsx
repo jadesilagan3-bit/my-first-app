@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My First App",
-  description: "My first Next.js website",
+  title: "My Personal Site",
+  description: "A personal site built with Next.js",
 };
 
 export default function RootLayout({
@@ -32,11 +32,9 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
 
-        <nav>
+        <nav className="bg-gray-800 p-4 text-white flex gap-6">
           <Link href="/">Home</Link>
-          {" | "}
           <Link href="/about">About</Link>
-          {" | "}
           <Link href="/projects">Projects</Link>
         </nav>
 
