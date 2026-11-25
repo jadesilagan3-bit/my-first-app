@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: "Projects | Your Name",
+  title: "Projects | Jade Silagan",
 };
 
 const projects = [
